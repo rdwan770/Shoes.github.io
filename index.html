@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav id="test">
+        <div class="nav-left">
+          <img src="icon-menu.svg" alt="" id="menu" class="menu" />
+          <img src="logo.svg" alt="" class="logo" />
+          <ul class="ul">
+            <li>Collection</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <img id="cart" src="icon-cart.svg" alt="" />
+          <img src="image-avatar.png" alt="" class="avatar" />
+        </div>
+      </nav>
+      <div id="pop-up" class="pop-up-menu">
+        <img id="close" src="icon-close.svg" alt="" />
+        <ul>
+          <li>Collection</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <main>
+        <div class="product">
+          <div class="product-imgs">
+            <span id="popUpCart" class="popUp-cart">
+              <h2>Cart</h2>
+              <div id="cartContent" class="cart-content">
+                <img src="image-product-1-thumbnail.jpg" alt="" />
+                <div class="cart-text">
+                  <h4>Fall limited Edition Sneakers</h4>
+                  <p class="first" id="p"> <p id="price"></p ></p>
+                </div>
+                <img src="icon-delete.svg" alt="" />
+                <a href="#">Checkout</a>
+              </div>
+            </span>
+            <div class="slider">
+              <div class="imgs"></div>
+              <div class="imgs"></div>
+              <div class="imgs"></div>
+              <div class="imgs"></div>
+            </div>
+            <div class="small-slider">
+              <img src="image-product-1-thumbnail.jpg" alt="" />
+              <img src="image-product-2-thumbnail.jpg" alt="" />
+              <img src="image-product-3-thumbnail.jpg" alt="" />
+              <img src="image-product-4-thumbnail.jpg" alt="" />
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>SNEAKER COMPANY</h3>
+            <h1>
+              Fall Limited Edition <br />
+              Sneakers
+            </h1>
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they'll withstand
+              everything the weather can offer.
+            </p>
+            <div class="price">
+              <h1>$125.00</h1>
+              <h3>50%</h3>
+              <h2>$250.00</h2>
+            </div>
+            <div class="bayer">
+              <div class="counter">
+                <img id="minus" src="icon-minus.svg" alt="" />
+                <span id="span"></span>
+                <img id="plus" src="icon-plus.svg" alt="" />
+              </div>
+              <div id="add" class="add-cart">
+                <img src="icon-cart.svg" alt="" />
+                <h1>Add to cart</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
